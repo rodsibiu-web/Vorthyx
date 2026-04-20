@@ -1,0 +1,105 @@
+[gd_scene format=3 uid="uid://b15ea0hd88tpw"]
+
+[ext_resource type="Script" uid="uid://cp26s1fgt4vwd" path="res://Y-Integrantes/Alvaro/mascota.gd" id="1_2g4bn"]
+[ext_resource type="Texture2D" uid="uid://bqvqvck6wcc4" path="res://assests/358_baby_purpleplumber.png" id="1_u7s4j"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e4wfr"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rheyy"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2g4bn"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cja6t"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l40i6"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78gd5"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ynmlu"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ji1u"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irejj"]
+atlas = ExtResource("1_u7s4j")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rheyy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e4wfr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rheyy")
+}],
+"loop": true,
+"name": &"abajo",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2g4bn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cja6t")
+}],
+"loop": true,
+"name": &"arriba",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l40i6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78gd5")
+}],
+"loop": true,
+"name": &"derecha",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ynmlu")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ji1u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irejj")
+}],
+"loop": true,
+"name": &"izquierda",
+"speed": 7.0
+}]
+
+[node name="mascota" type="Node2D" unique_id=1536336210]
+scale = Vector2(2, 2)
+script = ExtResource("1_2g4bn")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1547695941]
+z_index = -1
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("SpriteFrames_rheyy")
+animation = &"abajo"

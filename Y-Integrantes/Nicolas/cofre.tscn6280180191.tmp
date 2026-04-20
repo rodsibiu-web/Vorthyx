@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://bv53mhdm51any"]
+
+[ext_resource type="Script" uid="uid://eic4fqvjq0c2" path="res://Y-Integrantes/Nicolas/cofre.gd" id="1_r2co2"]
+[ext_resource type="Texture2D" uid="uid://dkqs6geso5drd" path="res://Imagenes/estructuras/chest.png" id="2_r2co2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r2co2"]
+size = Vector2(53.5, 43)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_20qww"]
+atlas = ExtResource("2_r2co2")
+region = Rect2(0, 0, 42, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iabyq"]
+atlas = ExtResource("2_r2co2")
+region = Rect2(42, 0, 42, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_igayb"]
+atlas = ExtResource("2_r2co2")
+region = Rect2(84, 0, 42, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_13qod"]
+atlas = ExtResource("2_r2co2")
+region = Rect2(126, 0, 42, 38)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48x3j"]
+atlas = ExtResource("2_r2co2")
+region = Rect2(168, 0, 42, 38)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yc7ha"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_20qww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iabyq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_igayb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_13qod")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48x3j")
+}],
+"loop": true,
+"name": &"abrir",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_20qww"]
+radius = 58.549126
+
+[node name="Cofre" type="StaticBody2D" unique_id=1753690599]
+script = ExtResource("1_r2co2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1438229616]
+visibility_layer = 2
+z_index = 1
+position = Vector2(213, 111)
+shape = SubResource("RectangleShape2D_r2co2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=764272499]
+position = Vector2(213, 110)
+scale = Vector2(1.3404161, 1.2429528)
+sprite_frames = SubResource("SpriteFrames_yc7ha")
+animation = &"abrir"
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1792702658]
+position = Vector2(0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=173030326]
+position = Vector2(213, 110)
+shape = SubResource("CircleShape2D_20qww")
+debug_color = Color(0.19133058, 0.64220846, 0, 0.41960785)

@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://ca4744ookl4qp"]
+
+[ext_resource type="Script" uid="uid://bbe0a0f32vure" path="res://scripts/menu_principal.gd" id="1_3bfcq"]
+[ext_resource type="Texture2D" uid="uid://fo5nxc31oco2" path="res://Imagenes/Fotos del menu/Menu principal.png" id="2_ltmtt"]
+
+[node name="Control" type="Control" unique_id=201033460]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3bfcq")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1750279591]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.31203935, 0.59967375, 0.47251415, 1)
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=460338760]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_ltmtt")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=479424490]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -185.0
+offset_top = -203.0
+offset_right = 171.0
+offset_bottom = -137.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="jugar" type="Button" parent="VBoxContainer" unique_id=1862523648]
+layout_mode = 2
+text = "NUEVA PARTIDA"
+
+[node name="salir" type="Button" parent="VBoxContainer" unique_id=619252916]
+layout_mode = 2
+text = "SALIR"
+
+[connection signal="pressed" from="VBoxContainer/jugar" to="." method="_on_jugar_pressed"]
+[connection signal="pressed" from="VBoxContainer/salir" to="." method="_on_salir_pressed"]

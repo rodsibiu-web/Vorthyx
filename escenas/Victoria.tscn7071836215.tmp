@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://d3a6jo1hedex0"]
+
+[ext_resource type="Texture2D" uid="uid://cjgtq4p6wfs2u" path="res://Imagenes/Fotos del menu/Copilot_20260520_201704.png" id="1_5d7dg"]
+[ext_resource type="Script" uid="uid://1vo6lqbxsqdp" path="res://escenas/victoria.gd" id="1_jkuo4"]
+
+[node name="Control" type="Control" unique_id=1921962989]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jkuo4")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1142841600]
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_5d7dg")
+expand_mode = 1
+
+[node name="Nueva partida" type="Button" parent="TextureRect" unique_id=1316564228]
+z_index = -1
+layout_mode = 0
+offset_left = 448.0
+offset_top = 804.0
+offset_right = 896.0
+offset_bottom = 877.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Nueva partida"
+icon_alignment = 1
+
+[node name="Salir" type="Button" parent="TextureRect" unique_id=1548207315]
+z_index = -1
+layout_mode = 0
+offset_left = 1022.0
+offset_top = 805.0
+offset_right = 1483.0
+offset_bottom = 877.0
+size_flags_horizontal = 4
+text = "Salir
+"
+
+[connection signal="pressed" from="TextureRect/Nueva partida" to="." method="_on_nueva_partida_pressed"]
+[connection signal="pressed" from="TextureRect/Salir" to="." method="_on_salir_pressed"]

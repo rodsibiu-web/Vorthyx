@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://rjxvg31mqlau"]
+
+[ext_resource type="Script" uid="uid://b3ig0rwymptwl" path="res://Y-Integrantes/Iker/inventory_slot.gd" id="1_wc3xe"]
+
+[node name="InventorySlot" type="Panel" unique_id=1511594498]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -165.5
+offset_top = -100.0
+offset_right = 165.5
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_vertical = 8
+script = ExtResource("1_wc3xe")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=754097869]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Quantity" type="Label" parent="." unique_id=88104972]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "\"\""
+
+[node name="UseButton" type="Button" parent="." unique_id=2084393501]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -76.0
+offset_top = -52.0
+grow_horizontal = 0
+grow_vertical = 0

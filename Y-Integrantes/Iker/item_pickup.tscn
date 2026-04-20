@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://jky0lxaulljc"]
+
+[ext_resource type="Script" uid="uid://bnkshheed0bh0" path="res://item_pickup.gd" id="1_nnxvw"]
+[ext_resource type="Resource" uid="uid://bqtims4wmn8cu" path="res://Y-Integrantes/Iker/carta_bota.tres" id="2_8s2to"]
+[ext_resource type="Texture2D" uid="uid://dqp0plgy5bhi6" path="res://Y-Integrantes/Iker/carta speed.png" id="2_82j7r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8s2to"]
+size = Vector2(48, 64)
+
+[node name="ItemPickup" type="Area2D" unique_id=1728011896]
+script = ExtResource("1_nnxvw")
+item_data = ExtResource("2_8s2to")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1043385612]
+position = Vector2(14, 22)
+shape = SubResource("RectangleShape2D_8s2to")
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D" unique_id=347031329]
+texture = ExtResource("2_82j7r")

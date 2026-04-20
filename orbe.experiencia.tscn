@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://brwt2v1e6fpqx"]
+
+[ext_resource type="Script" uid="uid://cqublq7etbrv4" path="res://orbe.experiencia.gd" id="1_b02dl"]
+[ext_resource type="Texture2D" uid="uid://7k880m5o16wf" path="res://Y-Integrantes/Alvaro/ChatGPT_Image_7_may_2026__17_33_48-removebg-preview.png" id="1_y3yal"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_b02dl"]
+radius = 133.6596
+
+[node name="Area2D" type="Area2D" unique_id=509423195]
+scale = Vector2(0.75, 0.75)
+script = ExtResource("1_b02dl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=705709951]
+texture = ExtResource("1_y3yal")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1087923074]
+position = Vector2(-1.3333334, -14.666666)
+shape = SubResource("CircleShape2D_b02dl")

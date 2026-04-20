@@ -1,0 +1,11 @@
+res://escenas/boss_LVL2.tscn
+res://mv.tres/Animaciones_Mv.tres
+res://mv.tres/new_tile_set.tres
+res://mv.tres/nivel2.tres
+res://mv.tres/decoNIVEL2.tres
+res://escenas/nivel_2_h_2.gd
+res://escenas/Pausa.tscn
+res://scripts/pausa.gd
+res://escenas/victoria.gd
+res://scripts/derrota.gd
+res://scripts/menu_principal.gd

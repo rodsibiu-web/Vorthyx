@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cihkq2up70kws"]
+
+[ext_resource type="Script" uid="uid://cw110o87uyj1t" path="res://Carga.gd" id="1_v2x8j"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1842747323]
+script = ExtResource("1_v2x8j")

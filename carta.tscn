@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dmiutbgr7ehma"]
+
+[ext_resource type="Script" uid="uid://c0hxupxpmaxwq" path="res://cartas.gd" id="1_4gtqo"]
+[ext_resource type="Texture2D" uid="uid://bp34mvhvsgps0" path="res://Y-Integrantes/Iker/carta ataque.png" id="2_77s45"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xu3ok"]
+size = Vector2(42, 58)
+
+[node name="carta" type="Area2D" unique_id=707308033]
+script = ExtResource("1_4gtqo")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1925348902]
+texture = ExtResource("2_77s45")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=965818672]
+shape = SubResource("RectangleShape2D_xu3ok")

@@ -1,0 +1,109 @@
+[gd_scene format=3 uid="uid://dnnnlaorusfsj"]
+
+[ext_resource type="Script" uid="uid://bate7urmpfa0p" path="res://character_body_2d_.gd" id="1_jg0bq"]
+[ext_resource type="SpriteFrames" uid="uid://bmg8whx6586ym" path="res://mv.tres/Animaciones_Mv.tres" id="2_0x8fj"]
+[ext_resource type="PackedScene" uid="uid://uffwj1k7f6tx" path="res://escenas/heart.tscn" id="3_8r8df"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f7o4x"]
+size = Vector2(60, 67)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ewfr0"]
+size = Vector2(9, 8.875)
+
+[node name="CharacterBody2D_" type="CharacterBody2D" unique_id=930542770]
+script = ExtResource("1_jg0bq")
+
+[node name="CollisionShape2D_" type="CollisionShape2D" parent="." unique_id=1121083737]
+position = Vector2(-5, 10)
+shape = SubResource("RectangleShape2D_f7o4x")
+
+[node name="AnimatedSprite2D_" type="AnimatedSprite2D" parent="." unique_id=1938388887]
+position = Vector2(-2, -5)
+scale = Vector2(4, 4)
+sprite_frames = ExtResource("2_0x8fj")
+animation = &"ataque_abajo"
+frame_progress = 0.7914644
+
+[node name="HitboxAtq_" type="Area2D" parent="AnimatedSprite2D_" unique_id=1282623853]
+
+[node name="CollisionShape2D_" type="CollisionShape2D" parent="AnimatedSprite2D_/HitboxAtq_" unique_id=1102905028]
+position = Vector2(-0.5, 3.5625)
+shape = SubResource("RectangleShape2D_ewfr0")
+debug_color = Color(0.99792165, 0, 0.16542414, 0.41960785)
+
+[node name="heart" type="CanvasLayer" parent="." unique_id=1369186587]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="heart" unique_id=1077038770]
+offset_right = 52.0
+offset_bottom = 50.0
+
+[node name="TextureRect_" type="TextureRect" parent="heart/VBoxContainer" unique_id=1636691733]
+custom_minimum_size = Vector2(16, 0)
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect_" unique_id=1229650996 instance=ExtResource("3_8r8df")]
+position = Vector2(1582, 43)
+scale = Vector2(2, 2)
+
+[node name="TextureRect2_" type="TextureRect" parent="heart/VBoxContainer" unique_id=2073826015]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect2_" unique_id=563510128 instance=ExtResource("3_8r8df")]
+position = Vector2(1612, 39)
+scale = Vector2(2, 2)
+
+[node name="TextureRect3_" type="TextureRect" parent="heart/VBoxContainer" unique_id=948255328]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect3_" unique_id=776168953 instance=ExtResource("3_8r8df")]
+position = Vector2(1644, 35)
+scale = Vector2(2, 2)
+
+[node name="TextureRect4_" type="TextureRect" parent="heart/VBoxContainer" unique_id=282937354]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect4_" unique_id=393034440 instance=ExtResource("3_8r8df")]
+position = Vector2(1674, 31)
+scale = Vector2(2, 2)
+
+[node name="TextureRect5_" type="TextureRect" parent="heart/VBoxContainer" unique_id=251437182]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect5_" unique_id=165328644 instance=ExtResource("3_8r8df")]
+position = Vector2(1705, 27)
+scale = Vector2(2, 2)
+
+[node name="TextureRect6_" type="TextureRect" parent="heart/VBoxContainer" unique_id=112590034]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect6_" unique_id=1646794833 instance=ExtResource("3_8r8df")]
+position = Vector2(1736, 23)
+scale = Vector2(2, 2)
+
+[node name="TextureRect7_" type="TextureRect" parent="heart/VBoxContainer" unique_id=1428628727]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect7_" unique_id=1041535660 instance=ExtResource("3_8r8df")]
+position = Vector2(1768, 19)
+scale = Vector2(2, 2)
+
+[node name="TextureRect8_" type="TextureRect" parent="heart/VBoxContainer" unique_id=1082606977]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect8_" unique_id=1562064808 instance=ExtResource("3_8r8df")]
+position = Vector2(1800, 14)
+scale = Vector2(2, 2)
+
+[node name="TextureRect9_" type="TextureRect" parent="heart/VBoxContainer" unique_id=771414976]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect9_" unique_id=1473954891 instance=ExtResource("3_8r8df")]
+position = Vector2(1831, 11)
+scale = Vector2(2, 2)
+
+[node name="TextureRect10_" type="TextureRect" parent="heart/VBoxContainer" unique_id=682865150]
+layout_mode = 2
+
+[node name="Heart" parent="heart/VBoxContainer/TextureRect10_" unique_id=1942007578 instance=ExtResource("3_8r8df")]
+position = Vector2(1863, 7)
+scale = Vector2(2, 2)

@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c1htv23ehxqbn"]
+
+[ext_resource type="Texture2D" uid="uid://451dgmqb04c7" path="res://Imagenes/Fotos del menu/foto 2 jugadores.png" id="1_b8c8v"]
+[ext_resource type="Script" uid="uid://dty5tnpt6ksyb" path="res://escenas/Menu_Jugadores.gd" id="1_ckdwm"]
+
+[node name="Control" type="Control" unique_id=2092736769]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ckdwm")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=847134546]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_b8c8v")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="TextureRect" unique_id=970634732]
+z_index = -1
+layout_mode = 0
+offset_left = 299.0
+offset_top = 855.0
+offset_right = 764.0
+offset_bottom = 918.0
+text = "1 JUGADOR"
+
+[node name="Button2" type="Button" parent="TextureRect" unique_id=1210756904]
+z_index = -1
+layout_mode = 0
+offset_left = 1161.0
+offset_top = 859.0
+offset_right = 1634.0
+offset_bottom = 921.0
+text = "2 Jugadores
+"

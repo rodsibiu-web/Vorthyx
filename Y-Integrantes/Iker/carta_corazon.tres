@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://wqh7snhb8gtl"]
+
+[ext_resource type="Texture2D" uid="uid://bkyio21f0vk2x" path="res://Y-Integrantes/Iker/carta heal.png" id="1_fts26"]
+[ext_resource type="Script" uid="uid://8ii1ktmdcuox" path="res://ItemData.gd" id="1_gpxgq"]
+
+[resource]
+script = ExtResource("1_gpxgq")
+name = "Corazón"
+type = "heart"
+icon = ExtResource("1_fts26")
+metadata/_custom_type_script = "uid://8ii1ktmdcuox"

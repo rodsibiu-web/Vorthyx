@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dm18avaarx7fm"]
+
+[node name="Panel" type="Panel" unique_id=958437874]
+custom_minimum_size = Vector2(100, 120)
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Icon" type="TextureRect" parent="." unique_id=270890608]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -40.0
+offset_right = 40.0
+offset_bottom = 80.0
+grow_horizontal = 2
+
+[node name="Nombre" type="Label" parent="Icon" unique_id=1044942328]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
