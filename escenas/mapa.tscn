@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dxjlmlmtvbln2"]
+
+[ext_resource type="Script" path="res://fondo.gd" id="1_2jh14"]
+
+[node name="Node2D" type="Node2D" unique_id=88118008]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1148122870]
+offset_right = 1148.0
+offset_bottom = 670.0
+script = ExtResource("1_2jh14")

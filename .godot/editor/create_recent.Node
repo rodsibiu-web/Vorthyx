@@ -1,0 +1,14 @@
+MarginContainer
+VBoxContainer
+CollisionShape2D
+Area2D
+TileMapLayer
+TextureRect
+CanvasLayer
+AnimatedSprite2D
+Button
+Node
+CharacterBody2D
+MenuButton
+ColorRect
+Camera2D

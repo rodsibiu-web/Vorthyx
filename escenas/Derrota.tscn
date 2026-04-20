@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://6monj3g3kdsn"]
+
+[ext_resource type="Script" path="res://juegofinal/Menu Principal/derrota.gd" id="1_l7nfv"]
+[ext_resource type="Texture2D" path="res://juegofinal/Fotos del menu/DEFEAT.png" id="2_i1taa"]
+
+[node name="Control" type="Control" unique_id=1986732724]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l7nfv")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=734316031]
+z_index = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_i1taa")
+expand_mode = 1
+
+[node name="Nueva partida" type="Button" parent="TextureRect" unique_id=896838810]
+z_index = -1
+layout_mode = 0
+offset_left = 448.0
+offset_top = 804.0
+offset_right = 896.0
+offset_bottom = 877.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+text = "Nueva partida"
+icon_alignment = 1
+
+[node name="Salir" type="Button" parent="TextureRect" unique_id=2004395866]
+z_index = -1
+layout_mode = 0
+offset_left = 1022.0
+offset_top = 805.0
+offset_right = 1483.0
+offset_bottom = 877.0
+size_flags_horizontal = 4
+text = "Salir
+"
+
+[connection signal="pressed" from="TextureRect/Nueva partida" to="." method="_on_nueva_partida_pressed"]
+[connection signal="pressed" from="TextureRect/Salir" to="." method="_on_salir_pressed"]
