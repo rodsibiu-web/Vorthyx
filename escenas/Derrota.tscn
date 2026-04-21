@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://6monj3g3kdsn"]
 
-[ext_resource type="Script" path="res://juegofinal/Menu Principal/derrota.gd" id="1_l7nfv"]
-[ext_resource type="Texture2D" path="res://juegofinal/Fotos del menu/DEFEAT.png" id="2_i1taa"]
+[ext_resource type="Script" uid="uid://poe4gagvox5o" path="res://scripts/derrota.gd" id="1_l7nfv"]
+[ext_resource type="Texture2D" uid="uid://c4df7gpw4aym3" path="res://Imagenes/Fotos del menu/DEFEAT.png" id="2_i1taa"]
 
 [node name="Control" type="Control" unique_id=1986732724]
 layout_mode = 3

@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://cbd1gvfh1uhwx" path="res://Imagenes/estructuras/Water+.png" id="3_bn2on"]
 [ext_resource type="Texture2D" uid="uid://c3djvpo7p37qi" path="res://Imagenes/estructuras/Bridges.png" id="4_b4fgu"]
 
-
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v6rra"]
 texture = ExtResource("3_bn2on")
 0:0/0 = 0
@@ -1467,14 +1466,17 @@ tile_map_data = PackedByteArray("AAD//wgAAwAAAAAAAFD//wkAAwABAAAAAFD//woAAwACAAA
 tile_set = ExtResource("1_i7dap")
 
 [node name="FONDO_PUERTA2_H2" type="TileMapLayer" parent="HABITACION_2/PUERTA" unique_id=1478391953]
+z_index = 12
 tile_map_data = PackedByteArray("AAD//wgAAwAAAAMAAFD+/wgAAwAAAAQAAFD//wkAAwABAAMAAFD+/wkAAwABAAQAAFDo//v/AwAAAAMAAFDo//z/AwAFAAMAAFDn//z/AwAFAAQAAFDn//v/AwAAAAQAAFDo//3/AwAGAAMAAFDn//3/AwAGAAQAAFA=")
 tile_set = ExtResource("1_i7dap")
 
 [node name="FODNO_PUERTA_H2" type="TileMapLayer" parent="HABITACION_2/PUERTA/FONDO_PUERTA2_H2" unique_id=360592321]
+z_index = 10
 tile_map_data = PackedByteArray("AAD//wkAAwAFAAMAAFD//woAAwAGAAMAAFD+/wkAAwAFAAQAAFD+/woAAwAGAAQAAFDo//z/AwAFAAMAAHDn//z/AwAFAAQAAHDo//v/AwAGAAMAAHDn//v/AwAGAAQAAHA=")
 tile_set = ExtResource("1_i7dap")
 
 [node name="PUERTA_H2_ABIERTA" type="TileMapLayer" parent="HABITACION_2/PUERTA/FONDO_PUERTA2_H2/FODNO_PUERTA_H2" unique_id=1701569447]
+z_index = -4
 tile_map_data = PackedByteArray("AAD//wgAAwAGAAAAAHD+/wgAAwAGAAEAAHD//wkAAwAFAAAAAHD+/wkAAwAFAAEAAHD//woAAwAEAAAAAHD+/woAAwAEAAEAAHDn//z/AwAFAAEAAFDo//z/AwAFAAAAAFDo//v/AwAEAAAAAFDn//v/AwAEAAEAAFDn//3/AwAGAAEAAFDo//3/AwAGAAAAAFA=")
 tile_set = ExtResource("1_i7dap")
 
