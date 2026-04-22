@@ -1,93 +1,99 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1776793498
-::res://assests/::1776705295
-::res://assests/Caballero/::1776705295
-::res://assests/Caballero/Without_shadow/::1776707286
-shadow_death.png::CompressedTexture2D::6017343793409085526::1776705295::1776707286::1::::<><><>0<>0<>3a45d835051c072a91d779c87c03dba0<>res://.godot/imported/shadow_death.png-aa53d0d8ca840656f38fd84d01e0fe76.ctex::
-shadow_single.png::CompressedTexture2D::1365359392247126240::1776705295::1776707286::1::::<><><>0<>0<>4762f44274a5d6b5ab3eff99faf782cf<>res://.godot/imported/shadow_single.png-5fa8ffdf566c62b8a46164cfbee29a24.ctex::
-Swordsman_lvl3_attack_without_shadow.png::CompressedTexture2D::9121351879563693414::1776705295::1776707286::1::::<><><>0<>0<>3f9cad715b56b53b4341c932827e50b9<>res://.godot/imported/Swordsman_lvl3_attack_without_shadow.png-28f0fb8ea06f0a390e1cb80dc6b25ebd.ctex::
-Swordsman_lvl3_Death_without_shadow.png::CompressedTexture2D::1448204581740351516::1776705295::1776707286::1::::<><><>0<>0<>fdaafa9abc4385835757ee3ae701b2d5<>res://.godot/imported/Swordsman_lvl3_Death_without_shadow.png-bf3da59c9a401367db86eca72aa3fd87.ctex::
-Swordsman_lvl3_Hurt_without_shadow.png::CompressedTexture2D::4083779514783574365::1776705295::1776707286::1::::<><><>0<>0<>f78b55d7552fe0971b4c585f8e93b28f<>res://.godot/imported/Swordsman_lvl3_Hurt_without_shadow.png-fc86ed3b565481de3ce2a3b8f42eb207.ctex::
-Swordsman_lvl3_Idle_without_shadow.png::CompressedTexture2D::5460203925106000986::1776705295::1776707286::1::::<><><>0<>0<>41c648b93ff202b4639cdb2e6c453d1d<>res://.godot/imported/Swordsman_lvl3_Idle_without_shadow.png-9fcf2e5d3d0f63372e1cc84776d7bedc.ctex::
-Swordsman_lvl3_Run_Attack_without_shadow.png::CompressedTexture2D::7944125287057936559::1776705295::1776707286::1::::<><><>0<>0<>0a61853584869ee93f26b2f9d68fe63a<>res://.godot/imported/Swordsman_lvl3_Run_Attack_without_shadow.png-5ed0b7fe083c8cb4e2ac2fd14723e58d.ctex::
-Swordsman_lvl3_Run_without_shadow.png::CompressedTexture2D::8555286717509944319::1776705295::1776707286::1::::<><><>0<>0<>b6738ae1297fcf08747a47b10b1a5ab6<>res://.godot/imported/Swordsman_lvl3_Run_without_shadow.png-81c7ddd3015a700e5e294ec2b330bdf4.ctex::
-Swordsman_lvl3_Walk_Attack_without_shadow.png::CompressedTexture2D::6300992859086232605::1776705295::1776707286::1::::<><><>0<>0<>69c6d8976e30fab03e90d5a54d11fca1<>res://.godot/imported/Swordsman_lvl3_Walk_Attack_without_shadow.png-52bbff3087ff21eb62ede4649f4a7d64.ctex::
-Swordsman_lvl3_Walk_without_shadow.png::CompressedTexture2D::651695876473267446::1776705295::1776707286::1::::<><><>0<>0<>4e92645b53978da56a1a3a3916a1313d<>res://.godot/imported/Swordsman_lvl3_Walk_without_shadow.png-d4c9d5ff8f402b44bc285e618c9bda8e.ctex::
-::res://assests/Minotaur_1/::1776707286
-Attack.png::CompressedTexture2D::4673249768909360940::1776705295::1776707286::1::::<><><>0<>0<>7768db98999c9a7dca3e0f5e3c693c94<>res://.godot/imported/Attack.png-2a4898c1076e5202911a3b99297078f3.ctex::
-Dead.png::CompressedTexture2D::7653850361870692858::1776705295::1776707286::1::::<><><>0<>0<>cbdbcdc4e1c4f572d973560b51244a9f<>res://.godot/imported/Dead.png-b9bd4311dc9d8ae90caf685247915a0f.ctex::
-Hurt.png::CompressedTexture2D::8711972497773395560::1776705295::1776707286::1::::<><><>0<>0<>a80a2ddf216e1dc715bc6ac0d4406a9c<>res://.godot/imported/Hurt.png-c3d1ef7398257ab1900b275c4344d6bf.ctex::
-Idle.png::CompressedTexture2D::2808384894948255760::1776705295::1776707286::1::::<><><>0<>0<>2a31b93eeaf582c5fe80d4e30e14e8a3<>res://.godot/imported/Idle.png-d5df459eb2102441e909c35213f5b0c1.ctex::
-Walk.png::CompressedTexture2D::9208326448462138904::1776705295::1776707286::1::::<><><>0<>0<>5d7fd91c2a22d84a64f39aa048df2646<>res://.godot/imported/Walk.png-d036ed529f1752b4a2734564b26e3c50.ctex::
-::res://assests/slime/::1776707286
-Slime1_Attack_without_shadow.png::CompressedTexture2D::6662695681273914361::1776705295::1776707286::1::::<><><>0<>0<>e72258edfcd012c54fbfc1f2d43dbbea<>res://.godot/imported/Slime1_Attack_without_shadow.png-72b98972c8ce1acf3cfc8a661c83dfbd.ctex::
-Slime1_Death_without_shadow.png::CompressedTexture2D::9155672813185556677::1776705295::1776707286::1::::<><><>0<>0<>ed136cd282f5a142dbd2d69b6d33f7ce<>res://.godot/imported/Slime1_Death_without_shadow.png-270e67d5e2702f769d41321059acc6cd.ctex::
-Slime1_Hurt_without_shadow.png::CompressedTexture2D::6827678837146255064::1776705295::1776707286::1::::<><><>0<>0<>e9b91510d5af85de7160ae1285494fa9<>res://.godot/imported/Slime1_Hurt_without_shadow.png-68078e575096e55727e0a37c1dc9dde1.ctex::
-Slime1_Idle_without_shadow.png::CompressedTexture2D::1702992126297609716::1776705295::1776707286::1::::<><><>0<>0<>c188143a775ebacf1f9d81ae959bcf89<>res://.godot/imported/Slime1_Idle_without_shadow.png-52f5b0cf4c3cd9ca5276bd8716c6fbb2.ctex::
-Slime1_Run_without_shadow.png::CompressedTexture2D::8512979363079119683::1776705295::1776707286::1::::<><><>0<>0<>1477c2f43f725c24ff2f549716a6a41a<>res://.godot/imported/Slime1_Run_without_shadow.png-b259ed80edfb9fac0023790532b5ebb9.ctex::
-Slime1_Walk_without_shadow.png::CompressedTexture2D::1281949751321342134::1776705295::1776707286::1::::<><><>0<>0<>243d5179431fd1114f7f93ab4d82f628<>res://.godot/imported/Slime1_Walk_without_shadow.png-e6b76641d84afcf48e6de1b9e790d762.ctex::
-::res://escenas/::1776792224
-boss_lvl_1.tscn::PackedScene::2110259989500005730::1776705295::0::1::::<><><>0<>0<><>::uid://dffi1nwx2fg2::::res://Imagenes/estructuras/SALA BOSS.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
-definitivo_lv1.tscn::PackedScene::3322020984280641983::1776792224::0::1::::<><><>0<>0<><>::uid://ch4msfb53s510::::res://scripts/MenuPausa.gd<>uid://b24v48bp0e737::::res://escenas/escena_habitación1.tscn<>uid://s833tguswalm::::res://scripts/var_enemigos.gd<>uid://dpd53puan2l5::::res://escenas/Escena_Persoanje.tscn<>uid://cw2q2tcc8dfvu::::res://Imagenes/estructuras/todo_nivel_1.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres<>uid://dtwiwavtkyrsd::::res://scripts/abrir_puerta.gd<>uid://bt4422td6qu2r::::res://scripts/area_cambio.gd<>uid://dkqhhyrrigbma::::res://escenas/definitivo_lv1_h2.tscn<>uid://lukmct2o72dm::::res://escenas/slime.tscn<>uid://bv53mhdm51any::::res://Y-Integrantes/Nicolas/cofre.tscn
-definitivo_lv1_h2.tscn::PackedScene::7894619338636691756::1776786913::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres<>uid://cfvdg16s24ksu::::res://scripts/pasar_a_h1.gd<>uid://b3h3ltrdlak6x::::res://scripts/pasar_a_h_1.gd<>uid://cbd1gvfh1uhwx::::res://Imagenes/estructuras/Water+.png<>uid://c3djvpo7p37qi::::res://Imagenes/estructuras/Bridges.png
-Derrota.tscn::PackedScene::2201500455322317389::1776707428::0::1::::<><><>0<>0<><>::uid://poe4gagvox5o::::res://scripts/derrota.gd<>uid://c4df7gpw4aym3::::res://Imagenes/Fotos del menu/DEFEAT.png
-escena_habitación1.tscn::PackedScene::4342714997189540776::1776705295::0::1::::<><><>0<>0<><>::uid://cw2q2tcc8dfvu::::res://Imagenes/estructuras/todo_nivel_1.png
-Escena_Persoanje.tscn::PackedScene::241769416755561384::1776705295::0::1::::<><><>0<>0<><>::uid://bmg8whx6586ym::::res://mv.tres/Animaciones_Mv.tres<>uid://826i7ga1y74::::res://scripts/Caballero_pp.gd<>uid://uffwj1k7f6tx::::res://escenas/heart.tscn
-fondo_lvl1.tscn::PackedScene::4592393462877485992::1776705295::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
-habitacion_2.tscn::PackedScene::7533346356380842225::1776705295::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
-heart.tscn::PackedScene::1414442147333102721::1776705295::0::1::::<><><>0<>0<><>::uid://c2ng0m6li2eip::::res://Imagenes/UI VIDA/corazon ui vida.png<>uid://7j11h68p8qgl::::res://Imagenes/UI VIDA/corazon2 ui vida.png<>uid://c3v0aprnqiugg::::res://Imagenes/UI VIDA/corazon-3-ui.png
-mapa.tscn::PackedScene::8792874768173769017::1776705295::0::1::::<><><>0<>0<><>::res://fondo.gd
-MenuPrincipal.tscn::PackedScene::4834704599500046171::1776705295::0::1::::<><><>0<>0<><>::uid://bbe0a0f32vure::::res://scripts/menu_principal.gd<>uid://fo5nxc31oco2::::res://Imagenes/Fotos del menu/Menu principal.png
-Pausa.tscn::PackedScene::6312286378471825376::1776705295::0::1::::<><><>0<>0<><>::uid://yluppnkxcgax::::res://scripts/pausa.gd<>uid://dmgmwhha8h31h::::res://Imagenes/Fotos del menu/menu pausa.png
-sala_boss_lvl_1.tscn::PackedScene::7175084441636929924::1776705295::0::1::::<><><>0<>0<><>::uid://dffi1nwx2fg2::::res://Imagenes/estructuras/SALA BOSS.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
-slime.tscn::PackedScene::813993570198813534::1776705295::0::1::::<><><>0<>0<><>::uid://dk6cwltp0042l::::res://scripts/slime.gd<>uid://yi7bcop00765::::res://assests/slime/Slime1_Idle_without_shadow.png<>uid://si8r4a5e1rt3::::res://assests/slime/Slime1_Walk_without_shadow.png
-::res://Imagenes/::1776785630
-::res://Imagenes/estructuras/::1776709473
-Bridges.png::CompressedTexture2D::6744906888072819832::1776705294::1776707286::1::::<><><>0<>0<>95eed8ad07f0892d3219a28241be342a<>res://.godot/imported/Bridges.png-2d12c1b72f65be0520afc7bfb8790903.ctex::
-chest.png::CompressedTexture2D::7895329119162479585::1771414101::1776708513::1::::<><><>0<>0<>aa2d8156e4a90d498abbd6ca83e8c39d<>res://.godot/imported/chest.png-bbac136b58931b5be8078ff2b2e4d61f.ctex::
-cofre.PNG::CompressedTexture2D::859470045211878064::1776710186::1776709473::1::::<><><>0<>0<>4509d9010d4d40941a8ef05fb14e67a6<>res://.godot/imported/cofre.PNG-e5e3e5e93ac89877e2972c79e5e5eaf6.ctex::
-PC _ Computer - The Binding of Isaac_ Rebirth - Rooms - Doors.png::CompressedTexture2D::5275430692505541683::1776705294::1776707286::1::::<><><>0<>0<>307e0dbf45fc43d0cc117ec556a166d6<>res://.godot/imported/PC _ Computer - The Binding of Isaac_ Rebirth - Rooms - Doors.png-5aafcb26b45910cdfdd49208d07e4e68.ctex::
-Pila_de_rocas_en_perspectiva_isométrica-removebg-preview.png::CompressedTexture2D::7452212353989008953::1776705294::1776707286::1::::<><><>0<>0<>a93e0473d16a851518c420722564a7f4<>res://.godot/imported/Pila_de_rocas_en_perspectiva_isométrica-removebg-preview.png-2a2947168a759650a27eaca1392114eb.ctex::
-ROCAS.PNG::CompressedTexture2D::6364447174206539811::1776705294::1776707286::1::::<><><>0<>0<>8c3391ecf48e4a57d4f4563c6dadf8d4<>res://.godot/imported/ROCAS.PNG-c9db881ac68b2c3a584e74bed16f9160.ctex::
-SALA BOSS.png::CompressedTexture2D::221207677720410947::1776705294::1776707286::1::::<><><>0<>0<>b8184022003350127684fe5d50a8de7c<>res://.godot/imported/SALA BOSS.png-7017ca31f4fba1a076a7d94bf19b9a33.ctex::
-skeleon dead 100%.png::CompressedTexture2D::5822859661310214712::1776705294::1776707286::1::::<><><>0<>0<>cb329043ac194ceb8651bed1e12e4d27<>res://.godot/imported/skeleon dead 100%.png-f245a61b9b55c195bd80de9d8de691f5.ctex::
-spawn boss.png::CompressedTexture2D::4749026910300842972::1776705294::1776707286::1::::<><><>0<>0<>7e8ec817500a442f9bcffbf8f52a3d92<>res://.godot/imported/spawn boss.png-810f9997441a37d2d19e8861d033c0f7.ctex::
-todo_nivel_1.png::CompressedTexture2D::6373754816270580058::1776705294::1776707286::1::::<><><>0<>0<>5810038a56d86a6301ecdd47a9f730b0<>res://.godot/imported/todo_nivel_1.png-83b918a8db2eb2e72588d06df31dd60d.ctex::
-Water+.png::CompressedTexture2D::4850813811929734015::1776705294::1776707286::1::::<><><>0<>0<>841a157137f8f1f3a07f8e36a5ea069a<>res://.godot/imported/Water+.png-90b0ce2bff915e1b5e741b837be66a9e.ctex::
-::res://Imagenes/Fotos del menu/::1776707286
-DEFEAT.png::CompressedTexture2D::6814872035870637924::1776705294::1776707286::1::::<><><>0<>0<>bec9339e987a2addf19ef8d750047208<>res://.godot/imported/DEFEAT.png-ff68b4d3bdb75baa9ba318586ebfac8c.ctex::
-Logo Juego.png::CompressedTexture2D::1905892643673274525::1776705294::1776707286::1::::<><><>0<>0<>f65a7fff33a326912523e55511d03d8f<>res://.godot/imported/Logo Juego.png-f4bfb5af9589e17efba7d9088ccb7bea.ctex::
-menu pausa.png::CompressedTexture2D::8014682711160645107::1776705294::1776707286::1::::<><><>0<>0<>746aa2836b750fdfe11bbef060fe6017<>res://.godot/imported/menu pausa.png-e65d536acf993c0ac9a375d8d53c18ea.ctex::
-Menu principal.png::CompressedTexture2D::381691444284908175::1776705294::1776707286::1::::<><><>0<>0<>561a1d6ead6aea189ccd4f66af04ab70<>res://.godot/imported/Menu principal.png-f6bd682d49c628303dc3c8f951e7ef7b.ctex::
-::res://Imagenes/UI VIDA/::1776707286
-corazon2 ui vida.png::CompressedTexture2D::2266247885730147311::1776705294::1776707286::1::::<><><>0<>0<>e5c71a442b8284b09d7b618328f0ed2a<>res://.godot/imported/corazon2 ui vida.png-6a7a33e43a638a88fc408f511fd46cd5.ctex::
-corazon ui vida.png::CompressedTexture2D::6695186681900759847::1776705294::1776707286::1::::<><><>0<>0<>bf2b56927aa719157da0667470379255<>res://.godot/imported/corazon ui vida.png-dbc9e589f21e3e9f94c171757a9b3b53.ctex::
-corazon-3-ui.png::CompressedTexture2D::6782999661629832642::1776705294::1776707286::1::::<><><>0<>0<>36f26acfc91e9fafbd47327cb9280ad1<>res://.godot/imported/corazon-3-ui.png-2dc24256751b673c2d80e6f0ffba6f4b.ctex::
-::res://mv.tres/::1776786913
-Animaciones_Mv.tres::SpriteFrames::3243116426744923840::1776786913::0::1::::<><><>0<>0<><>::uid://jjxlojdisibe::::res://assests/Caballero/Without_shadow/Swordsman_lvl3_Walk_without_shadow.png<>uid://d27plky1j0mio::::res://assests/Caballero/Without_shadow/Swordsman_lvl3_attack_without_shadow.png<>uid://cj1704upa1heg::::res://assests/Caballero/Without_shadow/Swordsman_lvl3_Idle_without_shadow.png
-mazmorra.tres::TileSet::4838430503754663264::1776705295::0::1::::<><><>0<>0<><>::
-new_tile_set.tres::TileSet::6122205965312936407::1776786752::0::1::::<><><>0<>0<><>::uid://cw2q2tcc8dfvu::::res://Imagenes/estructuras/todo_nivel_1.png<>uid://def534c316yq8::::res://Imagenes/estructuras/Pila_de_rocas_en_perspectiva_isométrica-removebg-preview.png<>uid://chfptqdt120qx::::res://Imagenes/estructuras/PC _ Computer - The Binding of Isaac_ Rebirth - Rooms - Doors.png<>uid://cbd1gvfh1uhwx::::res://Imagenes/estructuras/Water+.png<>uid://b8wp1q7nygs7e::::res://Imagenes/estructuras/spawn boss.png<>uid://co7vwa7yrswyq::::res://Imagenes/estructuras/skeleon dead 100%.png
-::res://scripts/::1776705295
-abrir_puerta.gd::GDScript::8538791447517765675::1776705295::0::1::::<>TileMapLayer<><>0<>0<><>::
-area_2d.gd::GDScript::5268524541149324606::1776705295::0::1::::<>Area2D<><>0<>0<><>::
-area_cambio.gd::GDScript::3781686124569232903::1776705295::0::1::::<>Area2D<><>0<>0<><>::
-Caballero_pp.gd::GDScript::69819654193924685::1776705295::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Codigo.gd::GDScript::6603296057072853299::1776705295::0::1::::<>CharacterBody2D<><>0<>0<><>::
-derrota.gd::GDScript::1082028914562984806::1776705295::0::1::::<>Control<><>0<>0<><>::
-fondo_puerta.gd::GDScript::7636886115491697160::1776705295::0::1::::<>TileMapLayer<><>0<>0<><>::
-gdg.gd::GDScript::647053643024978806::1776705295::0::1::::<>Node2D<><>0<>0<><>::
-MenuPausa.gd::GDScript::5324791241486426325::1776705295::0::1::::<>Node<><>0<>0<><>::
-menu_principal.gd::GDScript::2466386285283431854::1776705295::0::1::::<>Control<><>0<>0<><>::
-movimiento+ataque_pp.gd::GDScript::3851363585228431444::1776705295::0::1::::<>CharacterBody2D<><>0<>0<><>::
-pasar_a_h1.gd::GDScript::5167331798504459448::1776705295::0::1::::<>Area2D<><>0<>0<><>::
-pasar_a_h_1.gd::GDScript::4367879693723187501::1776705295::0::1::::<>TileMapLayer<><>0<>0<><>::
-pausa.gd::GDScript::1708482337789222575::1776705295::0::1::::<>Control<><>0<>0<><>::
-slime.gd::GDScript::7925307527111013005::1776705295::0::1::::<>CharacterBody2D<><>0<>0<><>::
-var_enemigos.gd::GDScript::1333274737541460434::1776705295::0::1::::<>Node<><>0<>0<><>::
-::res://Y-Integrantes/::1776705348
-::res://Y-Integrantes/Alvaro/::1776707129
-::res://Y-Integrantes/Iker/::1776707148
-::res://Y-Integrantes/Nicolas/::1776793283
-cofre.gd::GDScript::297443906893832819::1776793283::0::1::::<>StaticBody2D<><>0<>0<><>::
-cofre.tscn::PackedScene::3924039610922095938::1776792968::0::1::::<><><>0<>0<><>::uid://eic4fqvjq0c2::::res://Y-Integrantes/Nicolas/cofre.gd<>uid://dkqs6geso5drd::::res://Imagenes/estructuras/chest.png
-imagen_2026-04-20_203637496-removebg-preview.png::CompressedTexture2D::8080203999948856956::1776710206::1776786584::1::::<><><>0<>0<>ab02e82420472227e4a433a14d92f3fe<>res://.godot/imported/imagen_2026-04-20_203637496-removebg-preview.png-fbd33f20432807df894f183dd0f152d6.ctex::
+::res://::1776869606
+::res://assests/::1776796542
+::res://assests/Caballero/::1776796542
+::res://assests/Caballero/Without_shadow/::1776796669
+shadow_death.png::CompressedTexture2D::6017343793409085526::1776796542::1776796669::1::::<><><>0<>0<>3a45d835051c072a91d779c87c03dba0<>res://.godot/imported/shadow_death.png-aa53d0d8ca840656f38fd84d01e0fe76.ctex::
+shadow_single.png::CompressedTexture2D::1365359392247126240::1776796542::1776796669::1::::<><><>0<>0<>4762f44274a5d6b5ab3eff99faf782cf<>res://.godot/imported/shadow_single.png-5fa8ffdf566c62b8a46164cfbee29a24.ctex::
+Swordsman_lvl3_attack_without_shadow.png::CompressedTexture2D::9121351879563693414::1776796542::1776796669::1::::<><><>0<>0<>3f9cad715b56b53b4341c932827e50b9<>res://.godot/imported/Swordsman_lvl3_attack_without_shadow.png-28f0fb8ea06f0a390e1cb80dc6b25ebd.ctex::
+Swordsman_lvl3_Death_without_shadow.png::CompressedTexture2D::1448204581740351516::1776796542::1776796669::1::::<><><>0<>0<>fdaafa9abc4385835757ee3ae701b2d5<>res://.godot/imported/Swordsman_lvl3_Death_without_shadow.png-bf3da59c9a401367db86eca72aa3fd87.ctex::
+Swordsman_lvl3_Hurt_without_shadow.png::CompressedTexture2D::4083779514783574365::1776796542::1776796669::1::::<><><>0<>0<>f78b55d7552fe0971b4c585f8e93b28f<>res://.godot/imported/Swordsman_lvl3_Hurt_without_shadow.png-fc86ed3b565481de3ce2a3b8f42eb207.ctex::
+Swordsman_lvl3_Idle_without_shadow.png::CompressedTexture2D::5460203925106000986::1776796542::1776796669::1::::<><><>0<>0<>41c648b93ff202b4639cdb2e6c453d1d<>res://.godot/imported/Swordsman_lvl3_Idle_without_shadow.png-9fcf2e5d3d0f63372e1cc84776d7bedc.ctex::
+Swordsman_lvl3_Run_Attack_without_shadow.png::CompressedTexture2D::7944125287057936559::1776796542::1776796669::1::::<><><>0<>0<>0a61853584869ee93f26b2f9d68fe63a<>res://.godot/imported/Swordsman_lvl3_Run_Attack_without_shadow.png-5ed0b7fe083c8cb4e2ac2fd14723e58d.ctex::
+Swordsman_lvl3_Run_without_shadow.png::CompressedTexture2D::8555286717509944319::1776796542::1776796669::1::::<><><>0<>0<>b6738ae1297fcf08747a47b10b1a5ab6<>res://.godot/imported/Swordsman_lvl3_Run_without_shadow.png-81c7ddd3015a700e5e294ec2b330bdf4.ctex::
+Swordsman_lvl3_Walk_Attack_without_shadow.png::CompressedTexture2D::6300992859086232605::1776796542::1776796669::1::::<><><>0<>0<>69c6d8976e30fab03e90d5a54d11fca1<>res://.godot/imported/Swordsman_lvl3_Walk_Attack_without_shadow.png-52bbff3087ff21eb62ede4649f4a7d64.ctex::
+Swordsman_lvl3_Walk_without_shadow.png::CompressedTexture2D::651695876473267446::1776796542::1776796669::1::::<><><>0<>0<>4e92645b53978da56a1a3a3916a1313d<>res://.godot/imported/Swordsman_lvl3_Walk_without_shadow.png-d4c9d5ff8f402b44bc285e618c9bda8e.ctex::
+::res://assests/Minotaur_1/::1776796669
+Attack.png::CompressedTexture2D::4673249768909360940::1776796542::1776796669::1::::<><><>0<>0<>7768db98999c9a7dca3e0f5e3c693c94<>res://.godot/imported/Attack.png-2a4898c1076e5202911a3b99297078f3.ctex::
+Dead.png::CompressedTexture2D::7653850361870692858::1776796542::1776796669::1::::<><><>0<>0<>cbdbcdc4e1c4f572d973560b51244a9f<>res://.godot/imported/Dead.png-b9bd4311dc9d8ae90caf685247915a0f.ctex::
+Hurt.png::CompressedTexture2D::8711972497773395560::1776796542::1776796669::1::::<><><>0<>0<>a80a2ddf216e1dc715bc6ac0d4406a9c<>res://.godot/imported/Hurt.png-c3d1ef7398257ab1900b275c4344d6bf.ctex::
+Idle.png::CompressedTexture2D::2808384894948255760::1776796542::1776796669::1::::<><><>0<>0<>2a31b93eeaf582c5fe80d4e30e14e8a3<>res://.godot/imported/Idle.png-d5df459eb2102441e909c35213f5b0c1.ctex::
+Walk.png::CompressedTexture2D::9208326448462138904::1776796542::1776796669::1::::<><><>0<>0<>5d7fd91c2a22d84a64f39aa048df2646<>res://.godot/imported/Walk.png-d036ed529f1752b4a2734564b26e3c50.ctex::
+::res://assests/slime/::1776796669
+Slime1_Attack_without_shadow.png::CompressedTexture2D::6662695681273914361::1776796542::1776796669::1::::<><><>0<>0<>e72258edfcd012c54fbfc1f2d43dbbea<>res://.godot/imported/Slime1_Attack_without_shadow.png-72b98972c8ce1acf3cfc8a661c83dfbd.ctex::
+Slime1_Death_without_shadow.png::CompressedTexture2D::9155672813185556677::1776796542::1776796669::1::::<><><>0<>0<>ed136cd282f5a142dbd2d69b6d33f7ce<>res://.godot/imported/Slime1_Death_without_shadow.png-270e67d5e2702f769d41321059acc6cd.ctex::
+Slime1_Hurt_without_shadow.png::CompressedTexture2D::6827678837146255064::1776796542::1776796669::1::::<><><>0<>0<>e9b91510d5af85de7160ae1285494fa9<>res://.godot/imported/Slime1_Hurt_without_shadow.png-68078e575096e55727e0a37c1dc9dde1.ctex::
+Slime1_Idle_without_shadow.png::CompressedTexture2D::1702992126297609716::1776796542::1776796669::1::::<><><>0<>0<>c188143a775ebacf1f9d81ae959bcf89<>res://.godot/imported/Slime1_Idle_without_shadow.png-52f5b0cf4c3cd9ca5276bd8716c6fbb2.ctex::
+Slime1_Run_without_shadow.png::CompressedTexture2D::8512979363079119683::1776796542::1776796669::1::::<><><>0<>0<>1477c2f43f725c24ff2f549716a6a41a<>res://.godot/imported/Slime1_Run_without_shadow.png-b259ed80edfb9fac0023790532b5ebb9.ctex::
+Slime1_Walk_without_shadow.png::CompressedTexture2D::1281949751321342134::1776796542::1776796669::1::::<><><>0<>0<>243d5179431fd1114f7f93ab4d82f628<>res://.godot/imported/Slime1_Walk_without_shadow.png-e6b76641d84afcf48e6de1b9e790d762.ctex::
+::res://escenas/::1776870495
+boss_lvl_1.tscn::PackedScene::2110259989500005730::1776796542::0::1::::<><><>0<>0<><>::uid://dffi1nwx2fg2::::res://Imagenes/estructuras/SALA BOSS.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
+definitivo_lv1.tscn::PackedScene::3322020984280641983::1776798427::0::1::::<><><>0<>0<><>::uid://ch4msfb53s510::::res://scripts/MenuPausa.gd<>uid://b24v48bp0e737::::res://escenas/escena_habitación1.tscn<>uid://s833tguswalm::::res://scripts/var_enemigos.gd<>uid://dpd53puan2l5::::res://escenas/Escena_Persoanje.tscn<>uid://cw2q2tcc8dfvu::::res://Imagenes/estructuras/todo_nivel_1.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres<>uid://dtwiwavtkyrsd::::res://scripts/abrir_puerta.gd<>uid://bt4422td6qu2r::::res://scripts/area_cambio.gd<>uid://lukmct2o72dm::::res://escenas/slime.tscn<>uid://bf0a7b0wo56vu::::res://Y-Integrantes/Iker/boss_lvl_1.tscn<>uid://bv53mhdm51any::::res://Y-Integrantes/Nicolas/cofre.tscn<>uid://c0el1etegmfor::::res://Y-Integrantes/Iker/habitacion2.tscn
+definitivo_lv1_h2.tscn::PackedScene::7894619338636691756::1776796524::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres<>uid://cfvdg16s24ksu::::res://scripts/pasar_a_h1.gd<>uid://b3h3ltrdlak6x::::res://scripts/pasar_a_h_1.gd<>uid://cbd1gvfh1uhwx::::res://Imagenes/estructuras/Water+.png<>uid://c3djvpo7p37qi::::res://Imagenes/estructuras/Bridges.png
+Derrota.tscn::PackedScene::2201500455322317389::1776796524::0::1::::<><><>0<>0<><>::res://juegofinal/Menu Principal/derrota.gd<>res://juegofinal/Fotos del menu/DEFEAT.png
+escena_habitación1.tscn::PackedScene::4342714997189540776::1776796542::0::1::::<><><>0<>0<><>::uid://cw2q2tcc8dfvu::::res://Imagenes/estructuras/todo_nivel_1.png
+Escena_Persoanje.tscn::PackedScene::241769416755561384::1776796542::0::1::::<><><>0<>0<><>::uid://bmg8whx6586ym::::res://mv.tres/Animaciones_Mv.tres<>uid://826i7ga1y74::::res://scripts/Caballero_pp.gd<>uid://uffwj1k7f6tx::::res://escenas/heart.tscn
+fondo_lvl1.tscn::PackedScene::4592393462877485992::1776796542::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
+habitacion_2.tscn::PackedScene::7533346356380842225::1776796542::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
+heart.tscn::PackedScene::1414442147333102721::1776796542::0::1::::<><><>0<>0<><>::uid://c2ng0m6li2eip::::res://Imagenes/UI VIDA/corazon ui vida.png<>uid://7j11h68p8qgl::::res://Imagenes/UI VIDA/corazon2 ui vida.png<>uid://c3v0aprnqiugg::::res://Imagenes/UI VIDA/corazon-3-ui.png
+mapa.tscn::PackedScene::8792874768173769017::1776796542::0::1::::<><><>0<>0<><>::res://fondo.gd
+MenuPrincipal.tscn::PackedScene::4834704599500046171::1776796542::0::1::::<><><>0<>0<><>::uid://bbe0a0f32vure::::res://scripts/menu_principal.gd<>uid://fo5nxc31oco2::::res://Imagenes/Fotos del menu/Menu principal.png
+Pausa.tscn::PackedScene::6312286378471825376::1776796542::0::1::::<><><>0<>0<><>::uid://yluppnkxcgax::::res://scripts/pausa.gd<>uid://dmgmwhha8h31h::::res://Imagenes/Fotos del menu/menu pausa.png
+sala_boss_lvl_1.tscn::PackedScene::7175084441636929924::1776796542::0::1::::<><><>0<>0<><>::uid://dffi1nwx2fg2::::res://Imagenes/estructuras/SALA BOSS.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
+slime.tscn::PackedScene::813993570198813534::1776796542::0::1::::<><><>0<>0<><>::uid://dk6cwltp0042l::::res://scripts/slime.gd<>uid://yi7bcop00765::::res://assests/slime/Slime1_Idle_without_shadow.png<>uid://si8r4a5e1rt3::::res://assests/slime/Slime1_Walk_without_shadow.png
+::res://Imagenes/::1776796542
+::res://Imagenes/estructuras/::1776878491
+Bridges.png::CompressedTexture2D::6744906888072819832::1776796542::1776796669::1::::<><><>0<>0<>95eed8ad07f0892d3219a28241be342a<>res://.godot/imported/Bridges.png-2d12c1b72f65be0520afc7bfb8790903.ctex::
+chest.png::CompressedTexture2D::7895329119162479585::1776796524::1776796669::1::::<><><>0<>0<>aa2d8156e4a90d498abbd6ca83e8c39d<>res://.godot/imported/chest.png-bbac136b58931b5be8078ff2b2e4d61f.ctex::
+cofre.PNG::CompressedTexture2D::859470045211878064::1776796524::1776796669::1::::<><><>0<>0<>4509d9010d4d40941a8ef05fb14e67a6<>res://.godot/imported/cofre.PNG-e5e3e5e93ac89877e2972c79e5e5eaf6.ctex::
+decoboss.png::CompressedTexture2D::8806898082686171259::1776878491::1776878494::1::::<><><>0<>0<>ab2b76da29eafc369c2a8bf34f11f949<>res://.godot/imported/decoboss.png-e918f262dc75258764da6bfdeb34fabe.ctex::
+PC _ Computer - The Binding of Isaac_ Rebirth - Rooms - Doors.png::CompressedTexture2D::5275430692505541683::1776796542::1776796669::1::::<><><>0<>0<>307e0dbf45fc43d0cc117ec556a166d6<>res://.godot/imported/PC _ Computer - The Binding of Isaac_ Rebirth - Rooms - Doors.png-5aafcb26b45910cdfdd49208d07e4e68.ctex::
+Pila_de_rocas_en_perspectiva_isométrica-removebg-preview.png::CompressedTexture2D::7452212353989008953::1776796542::1776796669::1::::<><><>0<>0<>a93e0473d16a851518c420722564a7f4<>res://.godot/imported/Pila_de_rocas_en_perspectiva_isométrica-removebg-preview.png-2a2947168a759650a27eaca1392114eb.ctex::
+ROCAS.PNG::CompressedTexture2D::6364447174206539811::1776796542::1776796669::1::::<><><>0<>0<>8c3391ecf48e4a57d4f4563c6dadf8d4<>res://.godot/imported/ROCAS.PNG-c9db881ac68b2c3a584e74bed16f9160.ctex::
+SALA BOSS.png::CompressedTexture2D::221207677720410947::1776796542::1776796669::1::::<><><>0<>0<>b8184022003350127684fe5d50a8de7c<>res://.godot/imported/SALA BOSS.png-7017ca31f4fba1a076a7d94bf19b9a33.ctex::
+skeleon dead 100%.png::CompressedTexture2D::5822859661310214712::1776796542::1776796669::1::::<><><>0<>0<>cb329043ac194ceb8651bed1e12e4d27<>res://.godot/imported/skeleon dead 100%.png-f245a61b9b55c195bd80de9d8de691f5.ctex::
+spawn boss.png::CompressedTexture2D::4749026910300842972::1776796542::1776796669::1::::<><><>0<>0<>7e8ec817500a442f9bcffbf8f52a3d92<>res://.godot/imported/spawn boss.png-810f9997441a37d2d19e8861d033c0f7.ctex::
+todo_nivel_1.png::CompressedTexture2D::6373754816270580058::1776796542::1776796669::1::::<><><>0<>0<>5810038a56d86a6301ecdd47a9f730b0<>res://.godot/imported/todo_nivel_1.png-83b918a8db2eb2e72588d06df31dd60d.ctex::
+Water+.png::CompressedTexture2D::4850813811929734015::1776796542::1776796669::1::::<><><>0<>0<>841a157137f8f1f3a07f8e36a5ea069a<>res://.godot/imported/Water+.png-90b0ce2bff915e1b5e741b837be66a9e.ctex::
+::res://Imagenes/Fotos del menu/::1776871003
+DEFEAT.png::CompressedTexture2D::6814872035870637924::1776796542::1776796669::1::::<><><>0<>0<>bec9339e987a2addf19ef8d750047208<>res://.godot/imported/DEFEAT.png-ff68b4d3bdb75baa9ba318586ebfac8c.ctex::
+Logo Juego.png::CompressedTexture2D::1905892643673274525::1776871001::1776871003::1::::<><><>0<>0<>f65a7fff33a326912523e55511d03d8f<>res://.godot/imported/Logo Juego.png-f4bfb5af9589e17efba7d9088ccb7bea.ctex::
+menu pausa.png::CompressedTexture2D::8014682711160645107::1776796542::1776796669::1::::<><><>0<>0<>746aa2836b750fdfe11bbef060fe6017<>res://.godot/imported/menu pausa.png-e65d536acf993c0ac9a375d8d53c18ea.ctex::
+Menu principal.png::CompressedTexture2D::381691444284908175::1776796542::1776796669::1::::<><><>0<>0<>561a1d6ead6aea189ccd4f66af04ab70<>res://.godot/imported/Menu principal.png-f6bd682d49c628303dc3c8f951e7ef7b.ctex::
+PANTALLA DE CARGA.png::CompressedTexture2D::3577016031337453802::1776870994::1776871003::1::::<><><>0<>0<>5884353ad381d53b1192b32e7725864f<>res://.godot/imported/PANTALLA DE CARGA.png-d7ca33e0d61e4ced0afc63872557116a.ctex::
+::res://Imagenes/UI VIDA/::1776796669
+corazon2 ui vida.png::CompressedTexture2D::2266247885730147311::1776796542::1776796669::1::::<><><>0<>0<>e5c71a442b8284b09d7b618328f0ed2a<>res://.godot/imported/corazon2 ui vida.png-6a7a33e43a638a88fc408f511fd46cd5.ctex::
+corazon ui vida.png::CompressedTexture2D::6695186681900759847::1776796542::1776796669::1::::<><><>0<>0<>bf2b56927aa719157da0667470379255<>res://.godot/imported/corazon ui vida.png-dbc9e589f21e3e9f94c171757a9b3b53.ctex::
+corazon-3-ui.png::CompressedTexture2D::6782999661629832642::1776796542::1776796669::1::::<><><>0<>0<>36f26acfc91e9fafbd47327cb9280ad1<>res://.godot/imported/corazon-3-ui.png-2dc24256751b673c2d80e6f0ffba6f4b.ctex::
+::res://mv.tres/::1776799821
+Animaciones_Mv.tres::SpriteFrames::3243116426744923840::1776796924::0::1::::<><><>0<>0<><>::uid://jjxlojdisibe::::res://assests/Caballero/Without_shadow/Swordsman_lvl3_Walk_without_shadow.png<>uid://d27plky1j0mio::::res://assests/Caballero/Without_shadow/Swordsman_lvl3_attack_without_shadow.png<>uid://cj1704upa1heg::::res://assests/Caballero/Without_shadow/Swordsman_lvl3_Idle_without_shadow.png
+mazmorra.tres::TileSet::4838430503754663264::1776796542::0::1::::<><><>0<>0<><>::
+new_tile_set.tres::TileSet::6122205965312936407::1776799821::0::1::::<><><>0<>0<><>::uid://cw2q2tcc8dfvu::::res://Imagenes/estructuras/todo_nivel_1.png<>uid://def534c316yq8::::res://Imagenes/estructuras/Pila_de_rocas_en_perspectiva_isométrica-removebg-preview.png<>uid://chfptqdt120qx::::res://Imagenes/estructuras/PC _ Computer - The Binding of Isaac_ Rebirth - Rooms - Doors.png<>uid://cbd1gvfh1uhwx::::res://Imagenes/estructuras/Water+.png<>uid://b8wp1q7nygs7e::::res://Imagenes/estructuras/spawn boss.png<>uid://co7vwa7yrswyq::::res://Imagenes/estructuras/skeleon dead 100%.png<>uid://dffi1nwx2fg2::::res://Imagenes/estructuras/SALA BOSS.png
+::res://scripts/::1776796543
+abrir_puerta.gd::GDScript::8538791447517765675::1776796542::0::1::::<>TileMapLayer<><>0<>0<><>::
+area_2d.gd::GDScript::5268524541149324606::1776796542::0::1::::<>Area2D<><>0<>0<><>::
+area_cambio.gd::GDScript::3781686124569232903::1776796542::0::1::::<>Area2D<><>0<>0<><>::
+Caballero_pp.gd::GDScript::69819654193924685::1776796542::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Codigo.gd::GDScript::6603296057072853299::1776796542::0::1::::<>CharacterBody2D<><>0<>0<><>::
+derrota.gd::GDScript::1082028914562984806::1776796542::0::1::::<>Control<><>0<>0<><>::
+fondo_puerta.gd::GDScript::7636886115491697160::1776796542::0::1::::<>TileMapLayer<><>0<>0<><>::
+gdg.gd::GDScript::647053643024978806::1776796542::0::1::::<>Node2D<><>0<>0<><>::
+MenuPausa.gd::GDScript::5324791241486426325::1776796542::0::1::::<>Node<><>0<>0<><>::
+menu_principal.gd::GDScript::2466386285283431854::1776796542::0::1::::<>Control<><>0<>0<><>::
+movimiento+ataque_pp.gd::GDScript::3851363585228431444::1776796542::0::1::::<>CharacterBody2D<><>0<>0<><>::
+pasar_a_h1.gd::GDScript::5167331798504459448::1776796542::0::1::::<>Area2D<><>0<>0<><>::
+pasar_a_h_1.gd::GDScript::4367879693723187501::1776796542::0::1::::<>TileMapLayer<><>0<>0<><>::
+pausa.gd::GDScript::1708482337789222575::1776796542::0::1::::<>Control<><>0<>0<><>::
+slime.gd::GDScript::7925307527111013005::1776796542::0::1::::<>CharacterBody2D<><>0<>0<><>::
+var_enemigos.gd::GDScript::1333274737541460434::1776796543::0::1::::<>Node<><>0<>0<><>::
+::res://Y-Integrantes/::1776796567
+::res://Y-Integrantes/Alvaro/::1776796542
+::res://Y-Integrantes/Iker/::1776799820
+boss_lvl_1.tscn::PackedScene::2789031583302678314::1776799820::0::1::::<><><>0<>0<><>::uid://dffi1nwx2fg2::::res://Imagenes/estructuras/SALA BOSS.png<>uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres
+habitacion2.tscn::PackedScene::6536534526550131329::1776796924::0::1::::<><><>0<>0<><>::uid://cthv3qqh40jb0::::res://mv.tres/new_tile_set.tres<>uid://b3h3ltrdlak6x::::res://scripts/pasar_a_h_1.gd<>uid://cbd1gvfh1uhwx::::res://Imagenes/estructuras/Water+.png<>uid://c3djvpo7p37qi::::res://Imagenes/estructuras/Bridges.png<>uid://bet3dk3hf2a24::::res://Y-Integrantes/Iker/pasar_deh2_boss.gd<>uid://cfvdg16s24ksu::::res://scripts/pasar_a_h1.gd
+pasar_deh2_boss.gd::GDScript::2708105237565358907::1776798349::0::1::::<>Area2D<><>0<>0<><>::
+SUELO BOSS LVL2.png::CompressedTexture2D::1434157325937047397::1776707089::1776796669::1::::<><><>0<>0<>a58243bf5b3cbd58a004e3aa08cdb8fe<>res://.godot/imported/SUELO BOSS LVL2.png-d2672a6016cae7e065f1f64867258594.ctex::
+::res://Y-Integrantes/Nicolas/::1776796669
+cofre.gd::GDScript::-1::1776796524::0::1::::<>StaticBody2D<><>0<>0<><>::
+cofre.tscn::PackedScene::3924039610922095938::1776796669::0::1::::<><><>0<>0<><>::uid://eic4fqvjq0c2::::res://Y-Integrantes/Nicolas/cofre.gd<>uid://dkqs6geso5drd::::res://Imagenes/estructuras/chest.png
+imagen_2026-04-20_203637496-removebg-preview.png::CompressedTexture2D::8080203999948856956::1776796524::1776796669::1::::<><><>0<>0<>ab02e82420472227e4a433a14d92f3fe<>res://.godot/imported/imagen_2026-04-20_203637496-removebg-preview.png-fbd33f20432807df894f183dd0f152d6.ctex::

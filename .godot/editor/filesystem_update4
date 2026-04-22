@@ -1,4 +1,4 @@
-res://Y-Integrantes/Nicolas/cofre.tscn
-res://mv.tres/new_tile_set.tres
+res://Y-Integrantes/Iker/boss_lvl_1.tscn
 res://mv.tres/Animaciones_Mv.tres
-res://Y-Integrantes/Nicolas/cofre.gd
+res://mv.tres/new_tile_set.tres
+res://Y-Integrantes/Iker/habitacion2.tscn

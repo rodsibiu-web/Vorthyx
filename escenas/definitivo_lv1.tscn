@@ -8,9 +8,10 @@
 [ext_resource type="TileSet" uid="uid://cthv3qqh40jb0" path="res://mv.tres/new_tile_set.tres" id="3_rcdd3"]
 [ext_resource type="Script" uid="uid://dtwiwavtkyrsd" path="res://scripts/abrir_puerta.gd" id="4_2tsr8"]
 [ext_resource type="Script" uid="uid://bt4422td6qu2r" path="res://scripts/area_cambio.gd" id="5_t462l"]
-[ext_resource type="PackedScene" uid="uid://dkqhhyrrigbma" path="res://escenas/definitivo_lv1_h2.tscn" id="6_0ia2d"]
 [ext_resource type="PackedScene" uid="uid://lukmct2o72dm" path="res://escenas/slime.tscn" id="9_gvkwy"]
+[ext_resource type="PackedScene" uid="uid://bf0a7b0wo56vu" path="res://Y-Integrantes/Iker/boss_lvl_1.tscn" id="11_b01o5"]
 [ext_resource type="PackedScene" uid="uid://bv53mhdm51any" path="res://Y-Integrantes/Nicolas/cofre.tscn" id="11_p1qw2"]
+[ext_resource type="PackedScene" uid="uid://c0el1etegmfor" path="res://Y-Integrantes/Iker/habitacion2.tscn" id="12_wsv72"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8bjpd"]
 texture = ExtResource("3_i2p14")
@@ -5766,6 +5767,8 @@ size = Vector2(23, 75.5)
 
 [node name="Node2D" type="Node2D" unique_id=1717578301]
 script = ExtResource("1_epr4o")
+metadata/_edit_vertical_guides_ = [-4501.0]
+metadata/_edit_horizontal_guides_ = [650.0]
 
 [node name="VAR_ENEMIGOS" type="Node" parent="." unique_id=2141191882]
 script = ExtResource("2_r7vfm")
@@ -5825,9 +5828,6 @@ position = Vector2(-576, -320)
 anchor_mode = 0
 zoom = Vector2(1.5, 1.5)
 
-[node name="Node2D" parent="." unique_id=850997523 instance=ExtResource("6_0ia2d")]
-position = Vector2(-939, 3)
-
 [node name="Slime" parent="." unique_id=166256785 instance=ExtResource("9_gvkwy")]
 position = Vector2(228, 179)
 
@@ -5844,7 +5844,7 @@ position = Vector2(-2323, -130)
 position = Vector2(-1858, -132)
 
 [node name="Slime6" parent="." unique_id=1265207006 instance=ExtResource("9_gvkwy")]
-position = Vector2(-2368, 441)
+position = Vector2(-2320, 465)
 
 [node name="Slime7" parent="." unique_id=800150668 instance=ExtResource("9_gvkwy")]
 position = Vector2(-1889, 436)
@@ -5857,3 +5857,10 @@ position = Vector2(-2128, 278)
 
 [node name="Cofre" parent="." unique_id=189496777 instance=ExtResource("11_p1qw2")]
 position = Vector2(502, -10)
+
+[node name="BOSS_LVL1" parent="." unique_id=639652738 instance=ExtResource("11_b01o5")]
+position = Vector2(-6672, 7)
+
+[node name="Node2D" parent="." unique_id=850997523 instance=ExtResource("12_wsv72")]
+z_index = -1
+position = Vector2(-938, 0)
