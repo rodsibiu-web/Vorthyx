@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var vida = 300
+var vida = 100
 var player = null
 var empuje = Vector2.ZERO
 var puede_atacar = true
@@ -24,7 +24,6 @@ func _ready():
 func _on_detection_area_entered(body):
 	if body == player:
 		detectado = true
-		print("🎯 BOSS detectó al jugador!")
 
 func _physics_process(delta):
 	if player == null:
@@ -33,7 +32,7 @@ func _physics_process(delta):
 	if detectado:
 		empuje = empuje.move_toward(Vector2.ZERO, 500 * delta)
 		var direction = (player.global_position - global_position).normalized()
-		velocity = empuje + (direction * 60)  # Un poco más lento que el slime normal
+		velocity = empuje + (direction * 80)
 		move_and_slide()
 		
 		for i in get_slide_collision_count():
@@ -46,7 +45,6 @@ func _physics_process(delta):
 		velocity = Vector2.ZERO
 		move_and_slide()
 	
-	# Animaciones de movimiento
 	if velocity.length() > 5:
 		if abs(velocity.x) > abs(velocity.y):
 			if velocity.x > 0:
@@ -67,41 +65,16 @@ func _on_attack_area_entered(body):
 
 func atacar():
 	puede_atacar = false
-	print("⚔️ BOSS ataca!")
+	print("⚔️ Slime ataca!")
 	
-	# Animación de ataque según dirección hacia el player
-	var direction_to_player = (player.global_position - global_position).normalized()
-	
-	# Elegir animación de ataque según dirección
-	if abs(direction_to_player.x) > abs(direction_to_player.y):
-		if direction_to_player.x > 0:
-			animated_sprite.play("atacar_derecha")
-		else:
-			animated_sprite.play("atacar_izquierda")
-	else:
-		if direction_to_player.y > 0:
-			animated_sprite.play("atacar_abajo")
-		else:
-			animated_sprite.play("atacar_arriba")
-	
-	# Pequeña pausa para que coincida con la animación
-	await get_tree().create_timer(0.3).timeout
-	
-	# Aplicar daño al player
 	if player.has_method("recibir_dano"):
-		player.recibir_dano(20)  # 2 corazones de daño
+		player.recibir_dano(10)  # 1 corazón de daño
 	
-	# Esperar a que termine la animación
-	await get_tree().create_timer(0.5).timeout
-	
-	# Volver a idle
-	animated_sprite.play("idle")
-	await get_tree().create_timer(0.8).timeout
+	await get_tree().create_timer(1.0).timeout
 	puede_atacar = true
-
 func recibir_dano(cantidad):
 	vida -= cantidad
-	print("💚 BOSS vida: ", vida)
+	print("❤️ Slime vida: ", vida)
 	
 	modulate = Color(1, 0, 0)
 	await get_tree().create_timer(0.2).timeout
@@ -111,11 +84,11 @@ func recibir_dano(cantidad):
 		morir()
 
 func morir():
-	print("💀 BOSS derrotado!")
+	print("💀 Slime muerto")
 	
 	var global_node = get_node("/root/Node2D/VAR_ENEMIGOS")
 	if global_node:
-		global_node.boss_derrotado = true
-		print("✅ BOSS eliminado!")
+		global_node.slimes_muertos += 1
+		print("Slimes muertos totales: ", global_node.slimes_muertos, "/3")
 	
 	queue_free()

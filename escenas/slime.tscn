@@ -4,7 +4,6 @@
 [ext_resource type="Texture2D" uid="uid://yi7bcop00765" path="res://assests/slime/Slime1_Idle_without_shadow.png" id="2_4l1t8"]
 [ext_resource type="Texture2D" uid="uid://si8r4a5e1rt3" path="res://assests/slime/Slime1_Walk_without_shadow.png" id="3_ppcr1"]
 
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_jayke"]
 atlas = ExtResource("2_4l1t8")
 region = Rect2(0, 0, 64, 64)

@@ -1,6 +1,5 @@
 [gd_scene format=4 uid="uid://bnlhg2q6wllsx"]
 
-[ext_resource type="Script" uid="uid://ch4msfb53s510" path="res://scripts/MenuPausa.gd" id="1_epr4o"]
 [ext_resource type="PackedScene" uid="uid://b24v48bp0e737" path="res://escenas/escena_habitación1.tscn" id="1_mt5rx"]
 [ext_resource type="Script" uid="uid://s833tguswalm" path="res://scripts/var_enemigos.gd" id="2_r7vfm"]
 [ext_resource type="PackedScene" uid="uid://dpd53puan2l5" path="res://escenas/Escena_Persoanje.tscn" id="2_rcdd3"]
@@ -12,7 +11,6 @@
 [ext_resource type="PackedScene" uid="uid://bf0a7b0wo56vu" path="res://Y-Integrantes/Iker/boss_lvl_1.tscn" id="11_b01o5"]
 [ext_resource type="PackedScene" uid="uid://bv53mhdm51any" path="res://Y-Integrantes/Nicolas/cofre.tscn" id="11_p1qw2"]
 [ext_resource type="PackedScene" uid="uid://c0el1etegmfor" path="res://Y-Integrantes/Iker/habitacion2.tscn" id="12_wsv72"]
-[ext_resource type="PackedScene" uid="uid://ddpum3kcymco6" path="res://Y-Integrantes/Alvaro/bosslvl1.tscn" id="13_wsv72"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8bjpd"]
 texture = ExtResource("3_i2p14")
@@ -5767,7 +5765,6 @@ sources/0 = SubResource("TileSetAtlasSource_jveee")
 size = Vector2(23, 75.5)
 
 [node name="Node2D" type="Node2D" unique_id=1717578301]
-script = ExtResource("1_epr4o")
 metadata/_edit_vertical_guides_ = [-4501.0]
 metadata/_edit_horizontal_guides_ = [650.0]
 
@@ -5822,7 +5819,7 @@ shape = SubResource("RectangleShape2D_0ia2d")
 
 [node name="CharacterBody2D" parent="." unique_id=930542770 instance=ExtResource("2_rcdd3")]
 z_index = 10
-position = Vector2(-5044, 1010)
+position = Vector2(613, 348)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1129080329]
 position = Vector2(-576, -320)
@@ -5856,6 +5853,9 @@ position = Vector2(-1590, 151)
 [node name="Slime9" parent="." unique_id=2087161712 instance=ExtResource("9_gvkwy")]
 position = Vector2(-2128, 278)
 
+[node name="Slime10" parent="." unique_id=772815104 instance=ExtResource("9_gvkwy")]
+position = Vector2(-1689.9507, 385.1234)
+
 [node name="Cofre" parent="." unique_id=189496777 instance=ExtResource("11_p1qw2")]
 position = Vector2(502, -10)
 
@@ -5865,6 +5865,3 @@ position = Vector2(-6672, 7)
 [node name="Node2D" parent="." unique_id=850997523 instance=ExtResource("12_wsv72")]
 z_index = -1
 position = Vector2(-938, 0)
-
-[node name="CharacterBody2D2" parent="." unique_id=178451369 instance=ExtResource("13_wsv72")]
-position = Vector2(-5538.0005, 650)
