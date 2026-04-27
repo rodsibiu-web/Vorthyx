@@ -1,4 +1,7 @@
-res://Y-Integrantes/Iker/boss_lvl_1.tscn
+res://Y-Integrantes/Alvaro/bosslvl1.tscn
 res://mv.tres/Animaciones_Mv.tres
 res://mv.tres/new_tile_set.tres
-res://Y-Integrantes/Iker/habitacion2.tscn
+res://Y-Integrantes/Alvaro/bosslvl_1.gd
+res://escenas/definitivo_lv1.tscn
+res://Y-Integrantes/Iker/boss_lvl_1.tscn
+res://scripts/slime.gd

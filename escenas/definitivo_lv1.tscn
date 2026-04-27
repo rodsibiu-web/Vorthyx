@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://bf0a7b0wo56vu" path="res://Y-Integrantes/Iker/boss_lvl_1.tscn" id="11_b01o5"]
 [ext_resource type="PackedScene" uid="uid://bv53mhdm51any" path="res://Y-Integrantes/Nicolas/cofre.tscn" id="11_p1qw2"]
 [ext_resource type="PackedScene" uid="uid://c0el1etegmfor" path="res://Y-Integrantes/Iker/habitacion2.tscn" id="12_wsv72"]
+[ext_resource type="PackedScene" uid="uid://ddpum3kcymco6" path="res://Y-Integrantes/Alvaro/bosslvl1.tscn" id="13_wsv72"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8bjpd"]
 texture = ExtResource("3_i2p14")
@@ -5821,7 +5822,7 @@ shape = SubResource("RectangleShape2D_0ia2d")
 
 [node name="CharacterBody2D" parent="." unique_id=930542770 instance=ExtResource("2_rcdd3")]
 z_index = 10
-position = Vector2(595, 322)
+position = Vector2(-5044, 1010)
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1129080329]
 position = Vector2(-576, -320)
@@ -5864,3 +5865,6 @@ position = Vector2(-6672, 7)
 [node name="Node2D" parent="." unique_id=850997523 instance=ExtResource("12_wsv72")]
 z_index = -1
 position = Vector2(-938, 0)
+
+[node name="CharacterBody2D2" parent="." unique_id=178451369 instance=ExtResource("13_wsv72")]
+position = Vector2(-5538.0005, 650)
